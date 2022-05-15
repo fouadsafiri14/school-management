@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    card_view:cardElevation="1dp"
+    app:cardCornerRadius="1dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="127dp"
+            android:layout_height="152dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/course" />
+
+        <TextView
+
+            android:id="@+id/nomMatiereTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="93dp"
+            android:text="Unity :"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/profTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nomMatiereTextView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="49dp"
+            android:layout_toEndOf="@+id/image"
+            android:text="Mr. Nafil Khalid"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/semestreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profTextView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="82dp"
+            android:text="semestre 4"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/periodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/semestreTextView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="94dp"
+            android:text="periode 2"
+            android:textColor="@android:color/black" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="58dp"
+            android:layout_height="52dp"
+            android:layout_alignBottom="@+id/semestreTextView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="327dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="-74dp"
+            android:clickable="true"
+            card_view:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+

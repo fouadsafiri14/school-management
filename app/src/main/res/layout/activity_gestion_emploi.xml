@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.GestionEmploi"
+   >
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="219dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="164dp"
+        android:onClick="btn_action"
+        android:text="visualiser le fichier"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="199dp"
+        android:layout_height="196dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/ic_pdf"
+        app:layout_constraintBottom_toTopOf="@+id/upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.898" />
+
+    <TextView
+        android:id="@+id/upload"
+        android:layout_width="198dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="casual"
+        android:text="insérer votre fichier"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Editemail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+
+        android:id="@+id/Editemail"
+        android:layout_width="260dp"
+        android:layout_height="58dp"
+
+        android:layout_marginBottom="32dp"
+        android:drawableRight="@drawable/ic_file"
+        android:ems="10"
+        android:hint="Enter le nom du fichier"
+        android:inputType="textEmailAddress"
+        android:padding="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="220dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="24dp"
+        android:text="sélectionner"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EasyWay</string>
+    <string name="str_login">Login</string>
+    <string name="str_signup">Signup</string>
+    <string name="str_email">Email</string>
+    <string name="str_password">Password</string>
+    <string name="str_confirm_password">Confirm password</string>
+    <string name="str_havnt_account">Don\'t have an account ?</string>
+    <string name="str_have_account">Already have an account ?</string>
+    <string name="all">TODO</string>
+    <string name="anime">Dragon Ball</string>
+    <string name="name">Son Gokū</string>
+    <string name="title_activity_main">List</string>
+    <string name="subtitle_activity_main">teachers</string>
+    <string name="title_activity_add">Nuevo personaje</string>
+    <string name="name_form">Nombre</string>
+    <string name="anime_form">Anime de procedencia</string>
+    <string name="url_form">Url</string>
+    <string name="description_form">Descripción</string>
+    <string name="save">Guardar</string>
+    <string name="description">Son Gokū es un personaje ficticio, protagonista de la serie de manga y anime Dragon Ball. Fue creado por Akira Toriyama en 1984</string>
+    <string name="title_activity_edit">Datos del perosonaje</string>
+</resources>
